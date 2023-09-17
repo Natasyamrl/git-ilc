@@ -1,1 +1,10 @@
-test first
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Tugas Pertamaku</h1>
+
+<p>My first web.</p>
+
+</body>
+</html>
