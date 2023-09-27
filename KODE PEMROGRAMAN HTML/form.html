@@ -1,29 +1,48 @@
+<!DOCTYPE html>
 <html>
-<head><title>Halaman Register</title></head>
-<body>
-    <form action="submit.php" method="POST">
-        <h1>Halaman Register</h1>
-        <p>E-mail: 
-            <input type="email" name="email" />
-        </p>
-        <p>Password: 
-            <input type="password" name="password" />
-        </p>
-        <p>Foto: 
-            <input type="file" name="foto" /><br /></p>
-        <p>Tanggal Lahir: 
-            <input type="date" name="tanggallahir" />
-        </p>
-        <p>
-            <label>Gender:</label>
-            <select name="Gender">
-                <option value="male">male</option>
-                <option value="female">female</option>
-            </select>
-        </p>
-        <p>
-            <input type="submit" name="submit" value="Daftar" />
-        </p>
-    </form>
-</body>
-</html>
+<head>
+    <title>Membuat Desain Form Login Dengan CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	 
+	    <h1>Membuat Desain Form Dengan CSS </h1>
+	     
+	        <div class="kotak_login">
+	    	    <p class="tulisan_login">Halaman Register</p>
+	    	     
+	    	    	<form>
+	    	    		<label>E-mail</label>
+	    	    				<input type="email" name="email" class="form_login" placeholder="Username atau email ..">
+	    	    				 
+	    	    		<label>Password</label>
+	    	    				<input type="text" name="password" class="form_login" placeholder="Password ..">
+	    	    							 
+
+	                        <p>Foto: 
+	                        <input type="file" name="foto" /><br /></p>
+	                            <p>Tanggal Lahir: 
+	                                        <input type="date" name="tanggallahir" />
+	                            </p>
+	                            <p>
+	                       <label>Gender:</label>
+	                            <select name="Gender">
+	                                        <option value="male">male</option>
+	                                        <option value="female">female</option>
+	                                        </select>
+	                                        </p>
+	    	    				<input type="submit" class="tombol_login" value="DAFTAR">
+	    	    								     
+	    	    				<br/>
+	    	    			<br/>
+	                                                                                                                                    
+	    	    		<center>
+	    	    		<a class="link" href="https://layananmasyarakat.info/aca/login.html">kembali</a>
+	    	    		</center>
+	    	    	</form>
+	    	    								    										
+	        </div>
+	    	    								    										     
+	    	    								    										      
+	</body>
+	    	    								    										      </html>
